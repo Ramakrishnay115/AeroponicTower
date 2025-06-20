@@ -1,0 +1,129 @@
+.body{
+  padding:0%;
+  margin:0%;
+  border:0px;
+  box-sizing: border-box;
+}
+.Logo{
+  margin-left: 10px;
+  width: 180px;
+  height: 70px;
+
+}
+:where(.css-dev-only-do-not-override-ut69n1).ant-card .ant-card-body {
+    padding: 0px;
+    border-radius: 0 0 8px 8px;
+}
+.Search{
+  width: 300px;
+  height: 10px;
+ margin-top: 30px;
+ box-shadow: 5px black;
+
+}
+:where(.css-dev-only-do-not-override-ut69n1).ant-input-search .ant-input-affix-wrapper {
+    height: 26px;
+    border-radius: 0;
+}
+:where(.css-dev-only-do-not-override-ut69n1).ant-input-search .ant-input-search-button {
+    height: 25.5px;
+    background-color: #0077C8;
+    color: white; 
+}
+:where(.css-dev-only-do-not-override-ut69n1).ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-color-primary) {
+    color: white;
+    border-color: #0077C8;
+}
+:where(.css-dev-only-do-not-override-ut69n1).ant-input-group {
+    /* box-sizing: border-box; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* color: rgba(0,0,0,0.88); */
+    /* font-size: 14px; */
+    line-height: 0.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    position: relative;
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    /* border-spacing: 0; */
+}
+:where(.css-dev-only-do-not-override-ut69n1).ant-collapse-large >.ant-collapse-item >.ant-collapse-content>.ant-collapse-content-box {
+    padding: 0px;
+}
+.collapse1:where(.css-dev-only-do-not-override-ut69n1).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+   
+    color: #a0d911;
+    font-weight:800;
+    font-size: 22px;
+    
+}
+.collapse2:where(.css-dev-only-do-not-override-ut69n1).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+   
+    color: #a0d911;
+    font-weight:800;
+    font-size: 22px;
+    
+   
+}
+.collapse3:where(.css-dev-only-do-not-override-ut69n1).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+   
+    color: #a0d911;
+    font-weight:800;
+    font-size: 22px;
+   
+   
+}
+
+.Icon{
+ margin-top: 30px;
+ font-size: 20px;
+ color: #0077C8;
+ font-weight: bolder;
+ /* padding-right: 35px; */
+}
+
+.scrolling-wrapper {
+  margin-top: 80px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: darkgreen;
+}
+
+.scrolling-text {
+  display: inline-block;
+  white-space: nowrap;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-shadow: 3px 3px 5px black;
+  animation: scroll-left 25s linear reverse infinite;
+}
+
+.deal {
+  margin-right: 300px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.my_text {
+  font-size: 13px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.imgstyle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
