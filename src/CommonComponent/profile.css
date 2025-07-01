@@ -1,0 +1,11 @@
+:where(.css-dev-only-do-not-override-36gkoj).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item, :where(.css-dev-only-do-not-override-36gkoj).ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload-list.ant-upload-list-picture-card .ant-upload-list-item, :where(.css-dev-only-do-not-override-36gkoj).ant-upload-wrapper.ant-upload-picture-card-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item, :where(.css-dev-only-do-not-override-36gkoj).ant-upload-wrapper.ant-upload-picture-circle-wrapper .ant-upload-list.ant-upload-list-picture-circle .ant-upload-list-item {
+    height: 166px;
+    margin: 0;
+    width: 166px;
+    border-color: white;
+    
+}
+.profile{
+    background: #000024;
+     background: linear-gradient(90deg, rgba(0, 0, 36, 0.91) 0%, rgba(9, 72, 121, 1) 9%, rgba(0, 204, 255, 1) 100%);
+}

@@ -6,51 +6,16 @@
 }
 .Logo{
   margin-left: 10px;
-  width: 180px;
-  height: 70px;
+  width: 210px;
+  height: 100px;
 
-}
-:where(.css-dev-only-do-not-override-ut69n1).ant-card .ant-card-body {
-    padding: 0px;
-    border-radius: 0 0 8px 8px;
 }
 .Search{
-  width: 300px;
-  height: 10px;
- margin-top: 30px;
- box-shadow: 5px black;
-
+  width: 500px;
+  margin-top: 30px;
 }
-:where(.css-dev-only-do-not-override-ut69n1).ant-input-search .ant-input-affix-wrapper {
-    height: 26px;
-    border-radius: 0;
-}
-:where(.css-dev-only-do-not-override-ut69n1).ant-input-search .ant-input-search-button {
-    height: 25.5px;
-    background-color: #0077C8;
-    color: white; 
-}
-:where(.css-dev-only-do-not-override-ut69n1).ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-color-primary) {
-    color: white;
-    border-color: #0077C8;
-}
-:where(.css-dev-only-do-not-override-ut69n1).ant-input-group {
-    /* box-sizing: border-box; */
-    /* margin: 0; */
-    /* padding: 0; */
-    /* color: rgba(0,0,0,0.88); */
-    /* font-size: 14px; */
-    line-height: 0.5714285714285714;
-    list-style: none;
-    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
-    position: relative;
-    display: table;
-    width: 100%;
-    border-collapse: separate;
-    /* border-spacing: 0; */
-}
-:where(.css-dev-only-do-not-override-ut69n1).ant-collapse-large >.ant-collapse-item >.ant-collapse-content>.ant-collapse-content-box {
-    padding: 0px;
+button.ant-btn.css-dev-only-do-not-override-36gkoj.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid.ant-btn-lg.ant-input-search-button {
+  margin-top: 0px
 }
 .collapse1:where(.css-dev-only-do-not-override-ut69n1).ant-collapse>.ant-collapse-item >.ant-collapse-header {
    
@@ -68,7 +33,6 @@
    
 }
 .collapse3:where(.css-dev-only-do-not-override-ut69n1).ant-collapse>.ant-collapse-item >.ant-collapse-header {
-   
     color: #a0d911;
     font-weight:800;
     font-size: 22px;
@@ -78,34 +42,41 @@
 
 .Icon{
  margin-top: 30px;
- font-size: 20px;
+ font-size: 30px;
  color: #0077C8;
  font-weight: bolder;
  /* padding-right: 35px; */
 }
 
 .scrolling-wrapper {
-  margin-top: 80px;
+  margin-top: 100px;
   display: flex;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   overflow: hidden;
   position: relative;
+  padding: 0px 0px;
   background-color: darkgreen;
 }
-
+:where(.css-dev-only-do-not-override-36gkoj).ant-card .ant-card-body {
+    /* padding: 24px; */
+    padding: 0px;
+    border-radius: 0 0 8px 8px;
+}
 .scrolling-text {
   display: inline-block;
   white-space: nowrap;
   color: white;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  padding: 0px 0px;
   text-shadow: 3px 3px 5px black;
   animation: scroll-left 25s linear reverse infinite;
 }
 
 .deal {
   margin-right: 300px;
+  height: "50px";
 }
 
 @keyframes scroll-left {
@@ -117,13 +88,37 @@
   }
 }
 .my_text {
-  font-size: 13px;
+  font-size: 17px;
   margin-bottom: 0px;
   padding-bottom: 10px;
+  height: 100px;
+  font-weight: 600;
 }
 .imgstyle {
   position: relative;
   width: 100px;
   height: 100px;
   float: left;
+}
+.footer{
+  display:inline-flex;
+  font-size: 25px;
+  font-weight: 600;
+  list-style: 50px;
+}
+
+.tower_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.tower_title:hover{
+  color:orange
+}
+.tower_price{
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: red;
+
 }
